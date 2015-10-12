@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Лента | CaseClub</title>
+
+    <!-- Reset All CSS with Normilize.css -->
+    <link href="css/normilize.css" rel="stylesheet">
+	
+	<!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Font Awesome CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+	
+	<!-- Подключение CSS для компонента DatePicker -->
+	<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		
+		
+    <![endif]-->
+	
+	  <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+	
+	<!-- Подключение jQuery 1.11.1 -->
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    
+	<!-- Подключение локализации компонента DatePicker -->
+	<script type="text/javascript" src="js/moment-with-locales.min.js"></script>
+	
+	<!-- Подключение компонента DatePicker -->
+	<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><i class="fa fa-briefcase"></i> CaseClub</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+						<a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="glyphicon glyphicon-user"></i> Черезпарканногузадерищенко О.В.</a>
+							<ul class="dropdown-menu">
+							  <li><a href="#">Мои подписки</a></li>
+							  <li><a href="#">Стать автором</a></li>
+							  <li><a href="#">Финансы</a></li>
+							  <li><a href="#">Настройки профиля</a></li>
+							  <li class="divider"></li>
+							  <li><a href="#">Выход</a></li>
+							</ul>
+					</li>
+                </ul>
+        </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+	
+    <!-- Feed Section -->
+    <section class="feed">
+		<div class="container">
+			<div class="row">
+				<!-- Зона контента -->
+				<div class="col-md-8">
+						<!-- Начало "Новые Кейсы" -->
+						<div class="row">
+							<div class="col-md-12">
+								<h3>Новые статьи</h3>
+							</div>
+							<div class="post-container">
+								<div class="col-md-12 col-sm-12 post-container">
+									<img class="img-responsive " src="http://placehold.it/720x266" alt="">
+									<div class="text-justify">
+										<h4 class="text-left"><span class="label label-warning label-as-badge">избранное</span> <a href="#">От кого зависят изменения?</a></h4>
+										<p class="spot ellipsis-readmore">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях: чаще всего, когда плохо и надо спасать и реже, когда достигли уровня и надо перевести на другой уровень. <a href="#">[Читать дальше]</a></p>
+										<div class="text-left feed-post-info">
+											<div>
+												Дата публикации: <a href="#">30 сентября</a>
+											</div>
+											<div>
+												Автор:<a href="#"> Дмитрий Зорин</a>
+											</div>
+											<div>
+												В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="post-container">
+								<div class="col-md-6 col-sm-6 post-container">
+									<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+									<div class="text-justify">
+										<h4 class="text-left"><a href="#">От кого зависят изменения?</a></h4>
+										<p class="spot ellipsis-readmore">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях: чаще всего, когда плохо и надо спасать и реже, когда достигли уровня и надо перевести на другой уровень. <a href="#">[Читать дальше]</a></p>
+										<div class="text-left feed-post-info">
+											<div>
+												Дата публикации: 30 сентября<br/>
+											</div>
+											<div>
+												Автор:<a href="#"> Дмитрий Зорин</a>
+											</div>
+											<div>
+												В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="post-container">
+								<div class="col-md-6 col-sm-6 post-container">
+									<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+									<div class="text-justify">
+										<h4 class="text-left"><a href="#">От кого зависят изменения?</a></h4>
+										<p class="spot ellipsis-readmore">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях: чаще всего, когда плохо и надо спасать и реже, когда достигли уровня и надо перевести на другой уровень. <a href="#">[Читать дальше]</a></p>
+										<div class="text-left feed-post-info">
+											<div>
+												Дата публикации: <a href="#">30 сентября</a>
+											</div>
+											<div>
+												Автор:<a href="#"> Дмитрий Зорин</a>
+											</div>
+											<div>
+												В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="post-container">
+								<div class="col-md-6  col-sm-6 post-container">
+									<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+									<div class="text-justify">
+										<h4 class="text-left"><a href="#">От кого зависят изменения?</a></h4>
+										<p class="spot ellipsis-readmore">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях: чаще всего, когда плохо и надо спасать и реже, когда достигли уровня и надо перевести на другой уровень. <a href="#">[Читать дальше]</a></p>
+										<div class="text-left feed-post-info">
+											<div>
+												Дата публикации: <a href="#">30 сентября</a>
+											</div>
+											<div>
+												Автор:<a href="#"> Дмитрий Зорин</a>
+											</div>
+											<div>
+												В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="post-container">
+								<div class="col-md-6 col-sm-6 post-container">
+									<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+									<div class="text-justify">
+										<h4 class="text-left"><a href="#">От кого зависят изменения?</a></h4>
+										<p class="spot ellipsis-readmore">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях: чаще всего, когда плохо и надо спасать и реже, когда достигли уровня и надо перевести на другой уровень. <a href="#">[Читать дальше]</a></p>
+										<div class="text-left feed-post-info">
+											<div>
+												Дата публикации: <a href="#">30 сентября</a>
+											</div>
+											<div>
+												Автор:<a href="#"> Дмитрий Зорин</a>
+											</div>
+											<div>
+												В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Конец "Новые Кейсы" -->
+						
+						<!-- Начало "Кейсы по категориям " -->
+						<div class="row border-top">
+							<div class="col-md-12" >
+								<h3>Кейсы по категориям</h3>
+							</div>
+							<div class="row">
+								<div class="col-md-12" >
+									<h4><a href="#">Торговля</a></h4>
+								</div>
+								<div class="post-container">
+									<div class="col-md-4 col-sm-6 post-container">
+										<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+										<div class="text-justify">
+											<h5 class="text-left"><a href="#">От кого зависят изменения?</a></h5>
+											<p class="feed-category-text">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях... <a href="#">[Читать дальше]</a></p>
+											<div class="text-left feed-post-info">
+												<div>
+													Дата публикации: <a href="#">30 сентября</a>
+												</div>
+												<div>
+													Автор:<a href="#"> Дмитрий Зорин</a>
+												</div>
+												<div>
+													В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>	
+								<div class="post-container">
+									<div class="col-md-4 col-sm-6 post-container">
+										<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+										<div class="text-justify">
+											<h5 class="text-left"><a href="#">От кого зависят изменения?</a></h5>
+											<p class="feed-category-text">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях... <a href="#">[Читать дальше]</a></p>
+											<div class="text-left feed-post-info">
+												<div>
+													Дата публикации: <a href="#">30 сентября</a>
+												</div>
+												<div>
+													Автор:<a href="#"> Дмитрий Зорин</a>
+												</div>
+												<div>
+													В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="post-container">
+									<div class="col-md-4 col-sm-6 post-container">
+										<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+										<div class="text-justify">
+											<h5 class="text-left"><a href="#">От кого зависят изменения?</a></h5>
+											<p class="feed-category-text">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях... <a href="#">[Читать дальше]</a></p>
+											<div class="text-left feed-post-info">
+												<div>
+													Дата публикации: <a href="#">30 сентября</a>
+												</div>
+												<div>
+													Автор:<a href="#"> Дмитрий Зорин</a>
+												</div>
+												<div>
+													В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12" >
+									<h4><a href="#">Производство</a></h4>
+								</div>
+								<div class="post-container">
+									<div class="col-md-4 col-sm-6 post-container">
+										<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+										<div class="text-justify">
+											<h5 class="text-left"><a href="#">От кого зависят изменения?</a></h5>
+											<p class="feed-category-text">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях... <a href="#">[Читать дальше]</a></p>
+											<div class="text-left feed-post-info">
+												<div>
+													Дата публикации: <a href="#">30 сентября</a>
+												</div>
+												<div>
+													Автор:<a href="#"> Дмитрий Зорин</a>
+												</div>
+												<div>
+													В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>	
+								<div class="post-container">
+									<div class="col-md-4 col-sm-6 post-container">
+										<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+										<div class="text-justify">
+											<h5 class="text-left"><a href="#">От кого зависят изменения?</a></h5>
+											<p class="feed-category-text">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях... <a href="#">[Читать дальше]</a></p>
+											<div class="text-left feed-post-info">
+												<div>
+													Дата публикации: <a href="#">30 сентября</a>
+												</div>
+												<div>
+													Автор:<a href="#"> Дмитрий Зорин</a>
+												</div>
+												<div>
+													В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="post-container">
+									<div class="col-md-4 col-sm-6 post-container">
+										<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+										<div class="text-justify">
+											<h5 class="text-left"><a href="#">От кого зависят изменения?</a></h5>
+											<p class="feed-category-text">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях... <a href="#">[Читать дальше]</a></p>
+											<div class="text-left feed-post-info">
+												<div>
+													Дата публикации: <a href="#">30 сентября</a>
+												</div>
+												<div>
+													Автор:<a href="#"> Дмитрий Зорин</a>
+												</div>
+												<div>
+													В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12" >
+									<h4><a href="#">E-commerce</a></h4>
+								</div>
+								<div class="post-container">
+									<div class="col-md-4 col-sm-6 post-container">
+										<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+										<div class="text-justify">
+											<h5 class="text-left"><a href="#">От кого зависят изменения?</a></h5>
+											<p class="feed-category-text">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях... <a href="#">[Читать дальше]</a></p>
+											<div class="text-left feed-post-info">
+												<div>
+													Дата публикации: <a href="#">30 сентября</a>
+												</div>
+												<div>
+													Автор:<a href="#"> Дмитрий Зорин</a>
+												</div>
+												<div>
+													В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>	
+								<div class="post-container">
+									<div class="col-md-4 col-sm-6 post-container">
+										<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+										<div class="text-justify">
+											<h5 class="text-left"><a href="#">От кого зависят изменения?</a></h5>
+											<p class="feed-category-text">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях... <a href="#">[Читать дальше]</a></p>
+											<div class="text-left feed-post-info">
+												<div>
+													Дата публикации: <a href="#">30 сентября</a>
+												</div>
+												<div>
+													Автор:<a href="#"> Дмитрий Зорин</a>
+												</div>
+												<div>
+													В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="post-container">
+									<div class="col-md-4 col-sm-6 post-container">
+										<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+										<div class="text-justify">
+											<h5 class="text-left"><a href="#">От кого зависят изменения?</a></h5>
+											<p class="feed-category-text">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях... <a href="#">[Читать дальше]</a></p>
+											<div class="text-left feed-post-info">
+												<div>
+													Дата публикации: <a href="#">30 сентября</a>
+												</div>
+												<div>
+													Автор:<a href="#"> Дмитрий Зорин</a>
+												</div>
+												<div>
+													В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Конец "Кейсы по категориям " -->
+						
+						<!-- Начало "Кейсы по авторам " -->
+						<div class="row border-top">
+							<div class="col-md-12" >
+								<h3>Кейсы по авторам</h3>
+							</div>
+							<div class="row">
+								<div class="col-md-12" >
+									<h4><a href="#">Автор 1</a></h4>
+								</div>
+								<div class="post-container">
+									<div class="col-md-4 col-sm-6 post-container">
+										<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+										<div class="text-justify">
+											<h5 class="text-left"><a href="#">От кого зависят изменения?</a></h5>
+											<p class="feed-category-text">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях... <a href="#">[Читать дальше]</a></p>
+											<div class="text-left feed-post-info">
+												<div>
+													Дата публикации: <a href="#">30 сентября</a>
+												</div>
+												<div>
+													Автор:<a href="#"> Дмитрий Зорин</a>
+												</div>
+												<div>
+													В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>	
+								<div class="post-container">
+									<div class="col-md-4 col-sm-6 post-container">
+										<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+										<div class="text-justify">
+											<h5 class="text-left"><a href="#">От кого зависят изменения?</a></h5>
+											<p class="feed-category-text">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях... <a href="#">[Читать дальше]</a></p>
+											<div class="text-left feed-post-info">
+												<div>
+													Дата публикации: <a href="#">30 сентября</a>
+												</div>
+												<div>
+													Автор:<a href="#"> Дмитрий Зорин</a>
+												</div>
+												<div>
+													В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="post-container">
+									<div class="col-md-4 col-sm-6 post-container">
+										<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+										<div class="text-justify">
+											<h5 class="text-left"><a href="#">От кого зависят изменения?</a></h5>
+											<p class="feed-category-text">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях... <a href="#">[Читать дальше]</a></p>
+											<div class="text-left feed-post-info">
+												<div>
+													Дата публикации: <a href="#">30 сентября</a>
+												</div>
+												<div>
+													Автор:<a href="#"> Дмитрий Зорин</a>
+												</div>
+												<div>
+													В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12" >
+									<h4><a href="#">Автор 2</a></h4>
+								</div>
+								<div class="post-container">
+									<div class="col-md-4 col-sm-6 post-container">
+										<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+										<div class="text-justify">
+											<h5 class="text-left"><a href="#">От кого зависят изменения?</a></h5>
+											<p class="feed-category-text">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях... <a href="#">[Читать дальше]</a></p>
+											<div class="text-left feed-post-info">
+												<div>
+													Дата публикации: <a href="#">30 сентября</a>
+												</div>
+												<div>
+													Автор:<a href="#"> Дмитрий Зорин</a>
+												</div>
+												<div>
+													В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>	
+								<div class="post-container">
+									<div class="col-md-4 col-sm-6 post-container">
+										<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+										<div class="text-justify">
+											<h5 class="text-left"><a href="#">От кого зависят изменения?</a></h5>
+											<p class="feed-category-text">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях... <a href="#">[Читать дальше]</a></p>
+											<div class="text-left feed-post-info">
+												<div>
+													Дата публикации: <a href="#">30 сентября</a>
+												</div>
+												<div>
+													Автор:<a href="#"> Дмитрий Зорин</a>
+												</div>
+												<div>
+													В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="post-container">
+									<div class="col-md-4 col-sm-6 post-container">
+										<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+										<div class="text-justify">
+											<h5 class="text-left"><a href="#">От кого зависят изменения?</a></h5>
+											<p class="feed-category-text">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях... <a href="#">[Читать дальше]</a></p>
+											<div class="text-left feed-post-info">
+												<div>
+													Дата публикации: <a href="#">30 сентября</a>
+												</div>
+												<div>
+													Автор:<a href="#"> Дмитрий Зорин</a>
+												</div>
+												<div>
+													В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12" >
+									<h4><a href="#">Автор 3</a></h4>
+								</div>
+								<div class="post-container">
+									<div class="col-md-4 col-sm-6 post-container">
+										<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+										<div class="text-justify">
+											<h5 class="text-left"><a href="#">От кого зависят изменения?</a></h5>
+											<p class="feed-category-text">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях... <a href="#">[Читать дальше]</a></p>
+											<div class="text-left feed-post-info">
+												<div>
+													Дата публикации: <a href="#">30 сентября</a>
+												</div>
+												<div>
+													Автор:<a href="#"> Дмитрий Зорин</a>
+												</div>
+												<div>
+													В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>	
+								<div class="post-container">
+									<div class="col-md-4 col-sm-6 post-container">
+										<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+										<div class="text-justify">
+											<h5 class="text-left"><a href="#">От кого зависят изменения?</a></h5>
+											<p class="feed-category-text">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях... <a href="#">[Читать дальше]</a></p>
+											<div class="text-left feed-post-info">
+												<div>
+													Дата публикации: <a href="#">30 сентября</a>
+												</div>
+												<div>
+													Автор:<a href="#"> Дмитрий Зорин</a>
+												</div>
+												<div>
+													В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="post-container">
+									<div class="col-md-4 col-sm-6 post-container">
+										<img class="img-responsive" src="http://placehold.it/360x266" alt="">
+										<div class="text-justify">
+											<h5 class="text-left"><a href="#">От кого зависят изменения?</a></h5>
+											<p class="feed-category-text">Вся моя деятельность связана с изменениями в чужих компаниях. К специалистам подобным мне не стучатся, когда все хорошо. Ко мне приходят в двух случаях... <a href="#">[Читать дальше]</a></p>
+											<div class="text-left feed-post-info">
+												<div>
+													Дата публикации: <a href="#">30 сентября</a>
+												</div>
+												<div>
+													Автор:<a href="#"> Дмитрий Зорин</a>
+												</div>
+												<div>
+													В категориях: <a href="#">#менеджмент</a>, <a href="#">#торговля</a>, <a href="#">#производство</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+				
+				<!-- Сайдбар -->
+				<aside class="col-md-4">
+
+					<div class="laread-right">
+						<form>
+						  <div class="input-group search-field">
+							<input type="text" id="srch-term" name="srch-term" placeholder="Поиск статей" class="form-control">
+							<div class="input-group-btn">
+							  <button type="submit" class="btn btn-default btn-primary"><i class="glyphicon glyphicon-search"></i></button>
+							</div>
+						  </div>
+						</form>
+						
+						<div class="panel panel-default panel-container">
+						  <div class="panel-heading">
+							<h3 class="panel-title">Фильтры</h3>
+						  </div>
+						  <div class="panel-body">
+							<h5 class="panel-title">Теги:</h5>
+								<ul class="filter-list"">
+									<li>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" value="">
+													<a href="#">Торговля</a>
+											</label>
+										</div>
+									</li>
+									<li>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" value="">
+													<a href="#">Производство</a>
+											</label>
+										</div>
+									</li>
+									<li>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" value="">
+													<a href="#">E-commerce</a>
+											</label>
+										</div>
+									</li>
+									<li>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" value="">
+													<a href="#">Менеджмент</a>
+											</label>
+										</div>
+									</li>
+									<li>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" value="">
+													<a href="#">Маркетинг</a>
+											</label>
+										</div>
+									</li>
+									<li><a href="#">еще теги...</a></li>
+								</ul>
+								<h5 class="panel-title">Авторы:</h5>
+								<ul class="filter-list">
+									<li>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" value="">
+													<a href="#">Автор 1</a>
+											</label>
+										</div>
+									</li>
+									<li>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" value="">
+													<a href="#">Автор 2</a>
+											</label>
+										</div>
+									</li>
+									<li>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" value="">
+													<a href="#">Автор 3</a>
+											</label>
+										</div>
+									</li>
+									<li>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" value="">
+													<a href="#">Автор 4</a>
+											</label>
+										</div>
+									</li>
+									<li>
+										<div class="checkbox">
+											<label>
+												<input type="checkbox" value="">
+													<a href="#">Автор 5</a>
+											</label>
+										</div>
+									</li>
+									<li><a href="#">еще авторы...</a></li>
+								</ul>
+								
+								<!-- Начало блока выбора дат -->
+								<h5 class="panel-title">Даты:</h5>
+								<form class="form-inline form-margin">
+									<div class="form-group">
+										<label for="datetimepicker1">От</label>
+										<input type="text" class="form-control date-select" id="datetimepicker1" />
+									</div>
+									<div class="form-group">
+										<label for="datetimepicker2">До</label>
+										<input type="text" class="form-control date-select" id="datetimepicker2" />
+									</div>
+								</form>
+								<!-- Конец блока выбора дат -->
+								
+								<!-- Начало объявление переменных для выбора дат -->
+								<script type="text/javascript">
+								  $(function () {
+									$('#datetimepicker1').datetimepicker(
+									  {pickTime: false, language: 'ru'}
+									);
+									$('#datetimepicker2').datetimepicker(
+									  {pickTime: false, language: 'ru'}
+									);
+								  });
+								</script>
+								<!-- Конец объявление переменных для выбора дат -->
+								
+								<div class="text-center filter-btn">
+									<a href="#" class="btn btn-outline">Отфильтровать</a>
+								</div>
+						  </div>
+						</div>
+						<div class="alert alert-success">
+							<div class="text-center">
+								Ваша подписка активна еще <strong>1 день</strong> (до 30.09.2015)
+							</div>
+							<div class="text-center subscribe-btn">
+								<a href="#" class="btn btn-outline">продлить</a>
+							</div>
+						</div>
+				</aside>
+			</div>
+		</div>
+    </section>
+
+
+
+  
+
+</body>
+
+</html>
